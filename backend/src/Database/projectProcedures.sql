@@ -1,0 +1,9 @@
+--CREATE TABLE projects
+--(
+    --project_id VARCHAR(80) NOT NULL PRIMARY KEY,
+    --title VARCHAR(255) NOT NULL,
+    --description VARCHAR(1000) NOT NULL ,
+    --due_at DATE NOT NULL,
+    --completed VARCHAR(255) DEFAULT 'no',
+    --assigned_to VARCHAR(80) UNIQUE NOT NULL FOREIGN KEY REFERENCES dbo.users(id)
+--)
