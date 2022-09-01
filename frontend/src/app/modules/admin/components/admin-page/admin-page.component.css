@@ -1,0 +1,25 @@
+.admin-parent{
+    display:flex;
+    height:80vh;
+}
+.admin-left{
+    background-color: black;
+    height:100%;
+    padding:20px;
+}
+.admin-lists{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    list-style: none;
+}
+.admin-list{
+    color:white;
+    padding:20px;
+    cursor:pointer;
+}
+.active{
+    background-color: greenyellow;
+    color:black;
+    border-radius: 5px;
+}
