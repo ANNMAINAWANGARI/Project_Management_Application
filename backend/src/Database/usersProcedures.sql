@@ -57,3 +57,11 @@ CREATE TABLE users (id VARCHAR(80) NOT NULL PRIMARY KEY , username varchar(255) 
 --DELETE FROM dbo.users
 --WHERE email=@email
 --END
+
+/*get single user*/
+--CREATE PROCEDURE getUser(@email VARCHAR (255))
+--AS
+--BEGIN
+--SELECT * FROM dbo.users
+--WHERE email=@email
+--END
