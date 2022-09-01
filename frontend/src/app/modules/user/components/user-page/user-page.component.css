@@ -1,0 +1,19 @@
+.user-page-banner{
+    width:1000px;
+    max-width:1200px;
+    margin:10px auto;
+    color:white;
+    position:relative;
+    padding:40px;
+    border-radius: 5px;
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+    background: rgb(2,18,11);
+    background: linear-gradient(90deg, rgba(2,18,11,1) 0%, rgba(0,0,0,1) 46%, rgba(173,255,47,1) 100%); 
+}
+.user-page-banner-description{
+    display:inline;
+    width:40%;
+    line-height:180%;
+}
